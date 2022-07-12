@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 20px 10px;
+}
+
+.action {
+  margin-right: 10px;
+}
+
+a {
+  background-color: #a5a8a6;
+  text-decoration: none;
+  padding: 3px 10px;
+  font-weight: 400;
+  color: black;
+  z-index: 99;
+}
+
+a:hover,
+a:active {
+  background-color: #343635;
+  color: white;
+  cursor: pointer;
+}
+
+h1 {
+  margin-left: 10px;
+}
