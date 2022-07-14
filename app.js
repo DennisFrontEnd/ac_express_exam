@@ -2,20 +2,6 @@
 const express = require('express')
 const app = express()
 const port = 3000
-const pages = [
-  {
-    id: 1,
-    title: "About",
-  },
-  {
-    id: 2,
-    title: "Portfolio"
-  },
-  {
-    id: 3,
-    title: "Contact"
-  }
-];
 
 const exphbs = require('express-handlebars')
 
